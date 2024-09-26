@@ -1,0 +1,105 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: #d8d6d6;
+    box-shadow: 0 2px 20px #d8d8d6;
+}
+
+.header i{
+    color: black;
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+#youicon img{
+    width: 120px;
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.header span{
+    display: flex;
+    align-items: center;
+    margin-left: 16%;
+}
+
+#search{
+    padding-left: 30px;
+    width: 550px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1.5px solid #4a4949;
+}
+
+#search::placeholder{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.header span i{
+    transform: translateX(-55px);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    text-align: left;
+    font-family: 'Roboto';
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
+#voice{
+
+    padding: 8px 13px;
+    border-radius: 100px;
+    background: #fff;
+    margin-left: -20px;
+}
+
+#voice i{
+    font-size: 22px;
+}
+
+.right-sideBtn{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    width: 200px;
+}
+
+.right-sideBtn button{
+    background: none;
+}
+
+.right-sideBtn button img{
+    width: 35px;
+    color: white;
+}
+
+#profile{
+   background: rgb(41, 114, 191); 
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   border-radius: 50%;
+   width: 35px;
+   height: 35px;
+}
+
